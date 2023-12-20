@@ -1,0 +1,122 @@
+{
+  "main": {
+    "name": "Jameson Brown",
+    "description": "I am a software engineer using React and other tools to create amazing software that empowers the world to be a better place",
+    "image": "profilepic.jpeg",
+    "bio": "As a proud born and raised Utahn, I have always had prioritized community, family, and my black lab Dexter. Salt Lake City, UT is home. I spend my time learning new technologies, creating something amazing, trying new restaurants or recipes, and traveling. Currently working with an amazing team to help financial institutions, fintechs, and businesses understand and do more with financial data. Building with React and Redux on the frontend and Ruby on the backend.",
+    "contactmessage": "Reach out, say Hi, or find me on other platforms:",
+    "email": "jameson13b@icloud.com",
+    "phone": "619-888-2517",
+    "github": "https://github.com/Jameson13B",
+    "project": "https://github.com/Jameson13B/jameson-portfolio",
+    "address": {
+      "street": "",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "zip": "84103"
+    },
+    "website": "http://www.jamesonb.com",
+    "resumedownload": "http://www.jamesonb.com/resume.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/tbaker_x",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "medium",
+        "url": "https://medium.com/@jamesonbrown",
+        "className": "fa-brands fa-medium"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Naturally curious and always learning new skills and topics, here are a few of my skills.",
+    "education": [
+      {
+        "school": "Bloom Institute of Technology",
+        "degree": "Full Stack Web Development",
+        "graduated": "December 2018",
+        "description": "BloomTech is a 7+ month Computer Science & Software Engineering Academy that provides an immersive (full-time, 40+ hours/week) hands-on curriculum with a focus on computer science, software engineering, and web development."
+      }
+    ],
+    "work": [
+      {
+        "company": "MX Technologies",
+        "title": "Senior Software Engineer",
+        "years": "June 2019 - Present",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "Atomic10 Studio",
+        "title": "Owner",
+        "years": "March 2022 - Present",
+        "description": "Build websites and software solutions for clients to widen their reach or simplify internal processes. Most clients are in the restaurant, bar, and other hospitality industries. I enjoy helping business owners realize software solutions and process automation doesn't have to be expensive or only for larger companies."
+      }
+    ],
+    "skills": [
+      {
+        "name": "CSS",
+        "level": "95%"
+      },
+      {
+        "name": "Javascript",
+        "level": "90%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "90%"
+      },
+      {
+        "name": "Firebase",
+        "level": "70%"
+      },
+      {
+        "name": "VueJS",
+        "level": "65%"
+      },
+      {
+        "name": "Ruby",
+        "level": "50%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Gilluly Planner",
+        "category": "Collaborative multi family planning webapp for camping trips.",
+        "image": "gilluly.png",
+        "url": "https://gilluly.jamesonb.com"
+      },
+      {
+        "title": "ScoreKeeper",
+        "category": "A score keeper app",
+        "image": "scorekeeper.png",
+        "url": "https://scorekeeper.jamesonb.com"
+      },
+      {
+        "title": "Hacker Noon: Publication",
+        "category": "Stripe API, ReactJS, and Express - A tutorial for integrating Stripe Checkout with your React/Express application.",
+        "image": "hackernoon.png",
+        "url": "https://hackernoon.com/stripe-api-reactjs-and-express-bc446bf08301"
+      },
+      {
+        "title": "Chuck Norris Generator",
+        "category": "A customizable webapp that generates random Chuck Norris jokes.",
+        "image": "chucknorris.png",
+        "url": "https://chucknorris.jamesonb.com/"
+      }
+    ]
+  }
+}
