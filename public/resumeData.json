@@ -1,9 +1,9 @@
 {
   "main": {
     "name": "Jameson Brown",
-    "description": "I am a software engineer using React and other tools to create amazing software that empowers the world to be a better place",
+    "description": "A software engineer using React and other tools to create amazing software that empowers the world to be a better place",
     "image": "profilepic.jpeg",
-    "bio": "As a proud born and raised Utahn, I have always had prioritized community, family, and my black lab Dexter. Salt Lake City, UT is home. I spend my time learning new technologies, creating something amazing, trying new restaurants or recipes, and traveling. Currently working with an amazing team to help financial institutions, fintechs, and businesses understand and do more with financial data. Building with React and Redux on the frontend and Ruby on the backend.",
+    "bio": "As a proud born and raised Utahn, I have always prioritized community, family, and my black lab Dexter. Salt Lake City, UT is home. I spend my time learning new technologies, creating something amazing, trying new restaurants or recipes, and traveling. Currently working with an amazing team to help financial institutions, fintechs, and businesses understand and do more with financial data. Building with React and Redux on the frontend and Ruby on the backend.",
     "contactmessage": "Reach out, say Hi, or find me on other platforms:",
     "email": "jameson13b@icloud.com",
     "phone": "619-888-2517",
@@ -55,13 +55,13 @@
         "company": "MX Technologies",
         "title": "Senior Software Engineer",
         "years": "June 2019 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Participate in design reviews with peers and stakeholders to decide amongst available technologies. Review code developed by others and provide feedback to ensure best practices. Collaborated with Product Managers to exceed customers needs. Contribute to documentation. Triage product issues and debug/resolve by analyzing sorces of issues and impact. Coach and support engineers on the team with a focus on feedback and growth. Managed project priorities, deadlines, and deliverables."
       },
       {
         "company": "Atomic10 Studio",
         "title": "Owner",
         "years": "March 2022 - Present",
-        "description": "Build websites and software solutions for clients to widen their reach or simplify internal processes. Most clients are in the restaurant, bar, and other hospitality industries. I enjoy helping business owners realize software solutions and process automation doesn't have to be expensive or only for larger companies."
+        "description": "Build attractive, user friendly, and responsive websites and software solutions for clients to widen their reach or simplify internal processes. Most clients are in the restaurant, bar, and other hospitality industries. I enjoy helping business owners realize software solutions and process automation doesn't have to be expensive or only for larger companies."
       }
     ],
     "skills": [
