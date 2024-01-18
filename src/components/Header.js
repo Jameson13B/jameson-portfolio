@@ -55,12 +55,59 @@ export const Header = () => {
         <div className="flex justify-between sm:hidden">
           <button
             className="text-white font-PlusJakarta"
-            onClick={() => setIsOpen(!isOpen)}
+            onClick={() => setIsOpen(true)}
           >
             Menu
           </button>
         </div>
-        {isOpen && <div className="sm:hidden">Build Menu Here</div>}
+        {isOpen && (
+          <div className="flex flex-col items-center fixed left-0 right-0 top-0 bottom-0 bg-[#222222] p-[30px] sm:hidden">
+            <button
+              className="text-white ml-auto font-PlusJakarta"
+              onClick={() => {
+                setIsOpen(false)
+              }}
+            >
+              Close
+            </button>
+            <button
+              className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
+              onClick={() => {
+                setIsOpen(false)
+                scrollToTop('#home-section')
+              }}
+            >
+              Home
+            </button>
+            <button
+              className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
+              onClick={() => {
+                setIsOpen(false)
+                scrollToTop('#projects-section')
+              }}
+            >
+              Projects
+            </button>
+            <button
+              className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
+              onClick={() => {
+                setIsOpen(false)
+                scrollToTop('#experience-section')
+              }}
+            >
+              Experience
+            </button>
+            <button
+              className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
+              onClick={() => {
+                setIsOpen(false)
+                scrollToTop('#contact-section')
+              }}
+            >
+              Contact
+            </button>
+          </div>
+        )}
       </div>
     </div>
   )

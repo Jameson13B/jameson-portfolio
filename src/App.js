@@ -20,7 +20,6 @@ function App() {
 export default App
 
 // TODO LIST:
-// - Create mobile menu
 // - Add social media icons/links
 // - Add menu button for mobile
 // - Add resume file to /public
