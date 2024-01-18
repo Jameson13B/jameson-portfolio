@@ -51,7 +51,7 @@ export const Home = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Resume
+          View Resume
         </a>
       </div>
       <div>

@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export const Header = () => {
+  const [isOpen, setIsOpen] = useState(false)
   const scrollToTop = (selector) => {
     window.scrollTo({
       behavior: 'smooth',
@@ -54,13 +55,12 @@ export const Header = () => {
         <div className="flex justify-between sm:hidden">
           <button
             className="text-white font-PlusJakarta"
-            onClick={() => {
-              scrollToTop('#home-section')
-            }}
+            onClick={() => setIsOpen(!isOpen)}
           >
-            Home
+            Menu
           </button>
         </div>
+        {isOpen && <div className="sm:hidden">Build Menu Here</div>}
       </div>
     </div>
   )
