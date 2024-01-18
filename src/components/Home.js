@@ -27,9 +27,9 @@ export const Home = () => {
         crafting attractive, responsive, and user friendly interfaces using
         React.
       </p>
-      <div className="max-w-[550px] mx-auto mb-[88px]">
+      <div className="flex flex-col sm:flex-row max-w-[550px] mx-auto mb-[88px]">
         <button
-          className="border rounded-[50px] text-[#161513] font-[600] text-[21px] px-[29px] py-[16px] bg-white w-[calc(50%-9px)] inline-block font-Poppins"
+          className="border rounded-[50px] text-[#161513] font-[600] text-[21px] px-[29px] py-[16px] bg-white sm:w-[calc(50%-9px)] inline-block font-Poppins w-full"
           onClick={(e) => {
             e.preventDefault()
             window.scrollTo({
@@ -46,7 +46,7 @@ export const Home = () => {
           Get In Touch
         </button>
         <a
-          className="border rounded-[50px] text-white font-[600] text-[21px] px-[29px] py-[16px] ml-[18px] w-[calc(50%-9px)] inline-block font-Poppins"
+          className="border rounded-[50px] text-white font-[600] text-[21px] px-[29px] py-[16px] mt-[24px] sm:mt-0 sm:ml-[18px] sm:w-[calc(50%-9px)] inline-block font-Poppins w-full"
           href={`${process.env.PUBLIC_URL}/jameson_brown_resume.pdf`}
           target="_blank"
           rel="noreferrer"
