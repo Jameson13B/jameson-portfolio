@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState } from "react"
+
+import MenuIcon from "../assets/menu.svg"
+import CloseIcon from "../assets/close.svg"
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
   const scrollToTop = (selector) => {
     window.scrollTo({
-      behavior: 'smooth',
+      behavior: "smooth",
       top:
         document.querySelector(selector).getBoundingClientRect().top -
         document.body.getBoundingClientRect().top -
@@ -22,7 +25,7 @@ export const Header = () => {
           <button
             className="text-white mr-[71px] font-PlusJakarta"
             onClick={() => {
-              scrollToTop('#home-section')
+              scrollToTop("#home-section")
             }}
           >
             Home
@@ -30,7 +33,7 @@ export const Header = () => {
           <button
             className="text-white mr-[71px] font-PlusJakarta"
             onClick={() => {
-              scrollToTop('#projects-section')
+              scrollToTop("#projects-section")
             }}
           >
             Projects
@@ -38,7 +41,7 @@ export const Header = () => {
           <button
             className="text-white mr-[71px] font-PlusJakarta"
             onClick={() => {
-              scrollToTop('#experience-section')
+              scrollToTop("#experience-section")
             }}
           >
             Experience
@@ -46,7 +49,7 @@ export const Header = () => {
           <button
             className="text-white font-PlusJakarta"
             onClick={() => {
-              scrollToTop('#contact-section')
+              scrollToTop("#contact-section")
             }}
           >
             Contact
@@ -57,7 +60,7 @@ export const Header = () => {
             className="text-white font-PlusJakarta"
             onClick={() => setIsOpen(true)}
           >
-            Menu
+            <img alt="menu button" src={MenuIcon} />
           </button>
         </div>
         {isOpen && (
@@ -68,13 +71,13 @@ export const Header = () => {
                 setIsOpen(false)
               }}
             >
-              Close
+              <img alt="close button" src={CloseIcon} />
             </button>
             <button
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop('#home-section')
+                scrollToTop("#home-section")
               }}
             >
               Home
@@ -83,7 +86,7 @@ export const Header = () => {
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop('#projects-section')
+                scrollToTop("#projects-section")
               }}
             >
               Projects
@@ -92,7 +95,7 @@ export const Header = () => {
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop('#experience-section')
+                scrollToTop("#experience-section")
               }}
             >
               Experience
@@ -101,7 +104,7 @@ export const Header = () => {
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop('#contact-section')
+                scrollToTop("#contact-section")
               }}
             >
               Contact
