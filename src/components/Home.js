@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react"
 
-import avatar from '../assets/avatar.png'
-import CSS from '../assets/css.svg'
-import Html from '../assets/html.svg'
-import Javascript from '../assets/javascript.svg'
-import Node from '../assets/nodejs.svg'
-import ReactLogo from '../assets/reactjs.svg'
+import avatar from "../assets/avatar.png"
+import CSS from "../assets/css.svg"
+import Html from "../assets/html.svg"
+import Javascript from "../assets/javascript.svg"
+import Node from "../assets/nodejs.svg"
+import ReactLogo from "../assets/reactjs.svg"
 
 export const Home = () => {
   return (
@@ -16,7 +16,7 @@ export const Home = () => {
         src={avatar}
       />
       <h2 className="max-w-[650px] mx-auto mb-[39px] text-white text-[55px] font-[800] font-Poppins">
-        I do code and make content{' '}
+        I do code and make content{" "}
         <span className="bg-gradient-to-br from-[#FF8660] from-55% to-[#9A33FF] to-75% bg-clip-text text-transparent">
           about it!
         </span>
@@ -33,10 +33,10 @@ export const Home = () => {
           onClick={(e) => {
             e.preventDefault()
             window.scrollTo({
-              behavior: 'smooth',
+              behavior: "smooth",
               top:
                 document
-                  .querySelector('#contact-section')
+                  .querySelector("#contact-section")
                   .getBoundingClientRect().top -
                 document.body.getBoundingClientRect().top -
                 96,
