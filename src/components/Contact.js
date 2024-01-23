@@ -1,10 +1,10 @@
-import React from "react"
+import React from 'react'
 
-import EmailIcon from "../assets/email-icon.svg"
-import LinkedInLogo from "../assets/linkedin.svg"
-import InstagramLogo from "../assets/instagram.svg"
-import GithubLogo from "../assets/github.svg"
-import MediumLogo from "../assets/medium.svg"
+import EmailIcon from '../assets/email-icon.svg'
+import LinkedInLogo from '../assets/linkedin.svg'
+import InstagramLogo from '../assets/instagram.svg'
+import GithubLogo from '../assets/github.svg'
+import MediumLogo from '../assets/medium.svg'
 
 export const Contact = () => {
   return (
@@ -31,16 +31,16 @@ export const Contact = () => {
         <div className="text-white flex">
           <img
             alt="linkedin"
-            className="h-[45px] mr-[24px]"
+            className="h-[20px] mr-[24px]"
             src={LinkedInLogo}
           />
           <img
             alt="instagram"
-            className="h-[45px] mr-[24px]"
+            className="h-[20px] mr-[24px]"
             src={InstagramLogo}
           />
-          <img alt="github" className="h-[45px] mr-[24px]" src={GithubLogo} />
-          <img alt="medium" className="h-[45px]" src={MediumLogo} />
+          <img alt="github" className="h-[20px] mr-[24px]" src={GithubLogo} />
+          <img alt="medium" className="h-[20px]" src={MediumLogo} />
         </div>
       </div>
     </div>

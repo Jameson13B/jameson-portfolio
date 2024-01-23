@@ -1,13 +1,13 @@
-import React, { useState } from "react"
+import React, { useState } from 'react'
 
-import MenuIcon from "../assets/menu.svg"
-import CloseIcon from "../assets/close.svg"
+import MenuIcon from '../assets/menu.svg'
+import CloseIcon from '../assets/close.svg'
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
   const scrollToTop = (selector) => {
     window.scrollTo({
-      behavior: "smooth",
+      behavior: 'smooth',
       top:
         document.querySelector(selector).getBoundingClientRect().top -
         document.body.getBoundingClientRect().top -
@@ -25,7 +25,7 @@ export const Header = () => {
           <button
             className="text-white mr-[71px] font-PlusJakarta"
             onClick={() => {
-              scrollToTop("#home-section")
+              scrollToTop('#home-section')
             }}
           >
             Home
@@ -33,7 +33,7 @@ export const Header = () => {
           <button
             className="text-white mr-[71px] font-PlusJakarta"
             onClick={() => {
-              scrollToTop("#projects-section")
+              scrollToTop('#projects-section')
             }}
           >
             Projects
@@ -41,7 +41,7 @@ export const Header = () => {
           <button
             className="text-white mr-[71px] font-PlusJakarta"
             onClick={() => {
-              scrollToTop("#experience-section")
+              scrollToTop('#experience-section')
             }}
           >
             Experience
@@ -49,15 +49,15 @@ export const Header = () => {
           <button
             className="text-white font-PlusJakarta"
             onClick={() => {
-              scrollToTop("#contact-section")
+              scrollToTop('#contact-section')
             }}
           >
             Contact
           </button>
         </div>
-        <div className="flex justify-between sm:hidden">
+        <div className="flex justify-between items-center sm:hidden">
           <button
-            className="text-white font-PlusJakarta"
+            className="text-white h-[25px] aspect-square font-PlusJakarta"
             onClick={() => setIsOpen(true)}
           >
             <img alt="menu button" src={MenuIcon} />
@@ -66,7 +66,7 @@ export const Header = () => {
         {isOpen && (
           <div className="flex flex-col items-center fixed left-0 right-0 top-0 bottom-0 bg-[#222222] p-[30px] sm:hidden">
             <button
-              className="text-white ml-auto font-PlusJakarta"
+              className="text-white h-[20px] aspect-square ml-auto font-PlusJakarta"
               onClick={() => {
                 setIsOpen(false)
               }}
@@ -77,7 +77,7 @@ export const Header = () => {
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop("#home-section")
+                scrollToTop('#home-section')
               }}
             >
               Home
@@ -86,7 +86,7 @@ export const Header = () => {
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop("#projects-section")
+                scrollToTop('#projects-section')
               }}
             >
               Projects
@@ -95,7 +95,7 @@ export const Header = () => {
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop("#experience-section")
+                scrollToTop('#experience-section')
               }}
             >
               Experience
@@ -104,7 +104,7 @@ export const Header = () => {
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop("#contact-section")
+                scrollToTop('#contact-section')
               }}
             >
               Contact

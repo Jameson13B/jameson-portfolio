@@ -1,5 +1,5 @@
 import './App.css'
-import Experience from './components/Experience'
+import { Experience } from './components/Experience'
 import { Header } from './components/Header'
 import { Home } from './components/Home'
 import { Projects } from './components/Projects'
@@ -20,6 +20,4 @@ function App() {
 export default App
 
 // TODO LIST:
-// - Add social media icons/links
-// - Add menu button for mobile
 // - Add resume file to /public
