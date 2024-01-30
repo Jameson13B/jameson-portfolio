@@ -29,18 +29,42 @@ export const Contact = () => {
           </p>
         </a>
         <div className="text-white flex">
-          <img
-            alt="linkedin"
-            className="h-[20px] mr-[24px]"
-            src={LinkedInLogo}
-          />
-          <img
-            alt="instagram"
-            className="h-[20px] mr-[24px]"
-            src={InstagramLogo}
-          />
-          <img alt="github" className="h-[20px] mr-[24px]" src={GithubLogo} />
-          <img alt="medium" className="h-[20px]" src={MediumLogo} />
+          <button
+            onClick={() =>
+              window.open('https://linkedin.com/in/jameson-brown', '_blank')
+            }
+          >
+            <img
+              alt="linkedin"
+              className="h-[20px] mr-[24px]"
+              src={LinkedInLogo}
+            />
+          </button>
+          <button
+            onClick={() =>
+              window.open('https://github.com/Jameson13B', '_blank')
+            }
+          >
+            <img alt="github" className="h-[20px] mr-[24px]" src={GithubLogo} />
+          </button>
+          <button
+            onClick={() =>
+              window.open('https://www.instagram.com/jam3sonb', '_blank')
+            }
+          >
+            <img
+              alt="instagram"
+              className="h-[20px] mr-[24px]"
+              src={InstagramLogo}
+            />
+          </button>
+          <button
+            onClick={() =>
+              window.open('https://medium.com/@jamesonbrown', '_blank')
+            }
+          >
+            <img alt="medium" className="h-[20px]" src={MediumLogo} />
+          </button>
         </div>
       </div>
     </div>
