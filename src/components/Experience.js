@@ -12,13 +12,14 @@ export const Experience = () => {
         <Exp
           title="Senior Software Engineer at MX"
           date="June 2019 - Present"
-          description="As a Senior Software Engineer at MX, I played a pivotal role in developing innovative solutions for MX's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide."
+          descriptionOne="As a Senior Software Engineer at MX, I played a pivotal role in developing MX's product analytics solution. Collaborating with a dynamic team of engineers and product analysts, I contributed to the planning, designing, and integration of a product analytics solutoins that enabled us to run AB tests and deliver better product analytics results on all new features and enhancements. Using the results, we identified numerous areas we can improve the end users experience resulting in an increase in user conversion rate by 21.8%."
+          descriptionTwo="As the product I helped build grew, part of the project was to be isolated from the rest and served up as a standalone project. I planned and implemented a process to create a new repo, convert existing code over, and launch the new service. All without having any downtime for clients and end users and continuing to iterate through feature enhancements, new features, and bug fixes."
           containerStyles="mb-[50px]"
         />
         <Exp
           title="Owner of Atomic10 Studio"
           date="March 2023 - Present"
-          description="Build websites and software solutions for clients to widen their reach or simplify internal processes. Most clients are in the restaurant, bar, and other hospitality industries. I enjoy helping business owners realize software solutions and process automation doesn't have to be expensive or only for larger companies."
+          descriptionOne="Build websites and software solutions for clients to widen their reach or simplify internal processes. Most clients are in the restaurant, bar, and other hospitality industries. I enjoy helping business owners realize software solutions and process automation doesn't have to be expensive or only for larger companies."
         />
       </div>
     </div>

@@ -2,21 +2,26 @@ import React from 'react'
 
 import GillulyScreenshot from '../assets/gilluly_screenshot.png'
 import HackernoonScreenshot from '../assets/hackernoon_screenshot.png'
+import HackernoonRedux from '../assets/hackernoon_redux.jpeg'
 import LinkArrow from '../assets/link_arrow.svg'
 
 export const Project = (props) => {
   const getProjectThumbail = () => {
     if (props.title === 'Gilluly Planner') {
       return GillulyScreenshot
-    } else if (props.title === 'Hacker Noon Article') {
+    } else if (props.title === 'Stripe API - Article') {
       return HackernoonScreenshot
+    } else if (props.title === 'Build Redux - Article') {
+      return HackernoonRedux
     }
   }
   const getProjectLink = () => {
     if (props.title === 'Gilluly Planner') {
       return 'https://gilluly.jamesonb.com'
-    } else if (props.title === 'Hacker Noon Article') {
+    } else if (props.title === 'Stripe API - Article') {
       return 'https://hackernoon.com/stripe-api-reactjs-and-express-bc446bf08301'
+    } else if (props.title === 'Build Redux - Article') {
+      return 'https://medium.com/@jamesonbrown/build-a-simple-redux-from-scratch-63908db092b9'
     }
   }
   const data = {
@@ -27,7 +32,7 @@ export const Project = (props) => {
   return (
     <div
       className={
-        'rounded-[18px] bg-[#2A2A2A] cursor-pointer max-w-[390px] w-full ' +
+        `rounded-[18px] bg-[#2A2A2A] cursor-pointer max-w-[390px] w-full sm:w-[calc(50%-30px)] ` +
         props.containerStyles
       }
       onClick={() => window.open(data.link, '_blank')}

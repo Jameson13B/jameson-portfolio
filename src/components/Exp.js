@@ -29,7 +29,10 @@ export const Exp = ({ containerStyles = {}, ...props }) => {
         </p>
       </div>
       <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
-        {props.description}
+        {props.descriptionOne}
+      </p>
+      <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
+        {props.descriptionTwo}
       </p>
     </div>
   )
