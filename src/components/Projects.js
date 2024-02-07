@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 
-import { Project } from './Project'
+import { Project } from "./Project"
 
 export const Projects = () => {
   return (
@@ -16,6 +16,10 @@ export const Projects = () => {
         />
         <Project
           title="Stripe API - Article"
+          containerStyles="mt-[30px] sm:mr-[30px]"
+        />
+        <Project
+          title="Designer Portfolio"
           containerStyles="mt-[30px] sm:mr-[30px]"
         />
       </div>

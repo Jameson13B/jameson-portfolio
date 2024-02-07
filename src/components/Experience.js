@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 
-import { Exp } from './Exp'
+import { Exp } from "./Exp"
 
 export const Experience = () => {
   return (
@@ -19,7 +19,7 @@ export const Experience = () => {
         <Exp
           title="Owner of Atomic10 Studio"
           date="March 2023 - Present"
-          descriptionOne="Build websites and software solutions for clients to widen their reach or simplify internal processes. Most clients are in the restaurant, bar, and other hospitality industries. I enjoy helping business owners realize software solutions and process automation doesn't have to be expensive or only for larger companies."
+          descriptionOne="Build websites and software solutions for clients to widen their reach or simplify internal processes. Clients include UI/UX designer portfolio, local restaurant, and other small businesses. I enjoy helping business owners realize software solutions and process automation doesn't have to be expensive or only for larger companies."
         />
       </div>
     </div>
