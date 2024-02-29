@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 
-import { Project } from "./Project"
+import { Project } from './Project'
 
 export const Projects = () => {
   return (
@@ -11,15 +11,19 @@ export const Projects = () => {
       <div className="flex flex-col sm:flex-row max-w-[650px] mx-auto flex-wrap">
         <Project title="Gilluly Planner" containerStyles="sm:mr-[30px]" />
         <Project
-          title="Build Redux - Article"
-          containerStyles="mt-[30px] sm:mt-0"
+          title="Designer Portfolio"
+          containerStyles="mt-[30px] sm:mr-0 sm:mt-0"
         />
         <Project
-          title="Stripe API - Article"
+          title="Build Redux - Article"
           containerStyles="mt-[30px] sm:mr-[30px]"
         />
         <Project
-          title="Designer Portfolio"
+          title="MARP Cheatsheet - Article"
+          containerStyles="mt-[30px] sm:mt-[30px]"
+        />
+        <Project
+          title="Stripe API - Article"
           containerStyles="mt-[30px] sm:mr-[30px]"
         />
       </div>

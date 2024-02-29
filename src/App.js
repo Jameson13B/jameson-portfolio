@@ -18,6 +18,3 @@ function App() {
 }
 
 export default App
-
-// TODO LIST:
-// - Add resume file to /public
