@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 
 import EmailIcon from '../assets/email-icon.svg'
 import LinkedInLogo from '../assets/linkedin.svg'
@@ -22,10 +24,24 @@ export const Contact = () => {
           crafting attractive, responsive, and user friendly interfaces using
           React and scalable serverless architecture.
         </p>
-        <a className="flex mb-[43px]" href="mailto: jameson13b@icloud.com">
+        <a className="flex mb-[21px]" href="mailto: jameson13b@icloud.com">
           <img alt="email logo" src={EmailIcon} />
-          <p className="text-[#C5C5C5] text-[14px] font-[600] font-Poppins ml-[6px]">
+          <p className="text-[#C5C5C5] text-[14px] font-[600] font-Poppins ml-[8px]">
             jameson13b@icloud.com
+          </p>
+        </a>
+        <a
+          className="flex mb-[43px]"
+          href="https://atomic10.studio"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon
+            className="text-[#C5C5C5] h-[21px] w-[17px]"
+            icon={faLink}
+          />
+          <p className="text-[#C5C5C5] text-[14px] font-[600] font-Poppins ml-[8px]">
+            Atomic10 Studio
           </p>
         </a>
         <div className="text-white flex">
