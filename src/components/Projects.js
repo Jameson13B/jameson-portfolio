@@ -22,19 +22,25 @@ export const Projects = () => {
           containerStyles="mt-[30px] sm:mt-0"
         />
         <Project
+          title="Vault Dice Game"
+          github="https://github.com/Jameson13B/vault.io"
+          url="https://vault.jamesonb.com/"
+          containerStyles="mt-[30px] sm:mr-[30px]"
+        />
+        <Project
           title="Build Redux - Article"
           url="https://medium.com/@jamesonbrown/build-a-simple-redux-from-scratch-63908db092b9"
-          containerStyles="mt-[30px] sm:mr-[30px]"
+          containerStyles="mt-[30px]"
         />
         <Project
           title="MARP Cheatsheet - Article"
           url="https://medium.com/@jamesonbrown/how-developers-create-slide-decks-ef9013aab420"
-          containerStyles="mt-[30px] sm:mt-[30px]"
+          containerStyles="mt-[30px] sm:mr-[30px]"
         />
         <Project
           title="Stripe API - Article"
           url="https://hackernoon.com/stripe-api-reactjs-and-express-bc446bf08301"
-          containerStyles="mt-[30px] sm:mr-[30px]"
+          containerStyles="mt-[30px]"
         />
       </div>
     </div>

@@ -4,6 +4,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons"
 
 import GillulyScreenshot from "../assets/gilluly_screenshot.png"
 import HackernoonScreenshot from "../assets/hackernoon_screenshot.png"
+import VaultScreenshot from "../assets/vault_screenshot.jpeg"
 import SlideDeckScreenshot from "../assets/slidedeck_screenshot.jpeg"
 import HackernoonRedux from "../assets/hackernoon_redux.jpeg"
 import DesignerPortfolio from "../assets/designer_portfolio.jpeg"
@@ -21,13 +22,15 @@ export const Project = (props) => {
       return DesignerPortfolio
     } else if (props.title === "MARP Cheatsheet - Article") {
       return SlideDeckScreenshot
+    } else if (props.title === "Vault Dice Game") {
+      return VaultScreenshot
     }
   }
 
   return (
     <div
       className={
-        `rounded-[18px] bg-[#2A2A2A] cursor-pointer max-w-[390px] w-full sm:w-[calc(50%-30px)] ` +
+        `rounded-[18px] bg-[#2A2A2A] cursor-pointer max-w-[390px] w-full sm:w-[calc(50%-15px)] ` +
         props.containerStyles
       }
       onClick={() => window.open(props.url, "_blank")}
