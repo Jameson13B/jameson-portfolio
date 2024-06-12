@@ -47,7 +47,7 @@ export const Home = () => {
         </button>
         <a
           className="border rounded-[50px] text-white font-[600] text-[21px] px-[29px] py-[16px] mt-[24px] sm:mt-0 sm:ml-[18px] sm:w-[calc(50%-9px)] inline-block font-Poppins w-full"
-          href={`${process.env.PUBLIC_URL}/jameson_brown_resume.pdf`}
+          href={`${process.env.PUBLIC_URL}/JamesonBrown-resume.pdf`}
           target="_blank"
           rel="noreferrer"
         >
