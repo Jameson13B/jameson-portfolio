@@ -19,7 +19,17 @@ export const Experience = () => {
         <Exp
           title="Owner of Atomic10 Studio"
           date="March 2023 - Present"
-          descriptionOne="Build websites and software solutions for clients to widen their reach or simplify internal processes. Clients include UI/UX designer portfolio, local restaurant, and other small businesses. I enjoy helping business owners realize software solutions and process automation doesn't have to be expensive or only for larger companies."
+          descriptionOne="My creative lab for building both client projects and passion experiments. From custom websites and software for clients to experimental side quests like small-batch brewing and 3D-printed rockets. It's equal parts work and play, always driven by curiosity."
+          descriptionTwo={
+            <span>
+              Atomic10 gives me the freedom to explore ideas that don't always
+              fit in a typical job description. Whether I'm solving real
+              problems for small businesses or chasing an oddly specific idea
+              just to see if I can make it happen, it's all part of the same
+              process: <strong>create, refine, repeat</strong>. It's my way of
+              staying sharp, staying weird, and staying excited about what I do.
+            </span>
+          }
         />
       </div>
     </div>
